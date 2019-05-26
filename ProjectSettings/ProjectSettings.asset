@@ -685,6 +685,15 @@ PlayerSettings:
   luminPrivilege:
   - LocalAreaNetwork
   - Internet
+  - CameraCapture
+  - GesturesSubscribe
+  - GesturesConfig
+  - AudioRecognizer
+  - AudioCaptureMic
+  - VoiceInput
+  - PwFoundObjRead
+  - ControllerPose
+  - WorldReconstruction
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

@@ -8,13 +8,13 @@ public class ActAsUDPListener : MonoBehaviour, IDisplayMessage
 
     public int portNumber = UDPListener.DefaultPortNumber;
 
-    public GameObject[] objectArray = new GameObject[0];
+    public UpdatePosition[] objectArray = new UpdatePosition[0];
 
     public static object obj = new object();
     // Use this for initialization
     void Start()
     {
-        UDPListener listener = new UDPListener();
+        UDPListener listener = new UDPListener(portNumber, this);
         listener.Start();
     }
 
@@ -34,18 +34,20 @@ public class ActAsUDPListener : MonoBehaviour, IDisplayMessage
                     // insert the data were it needs to go
                     for (int i = 0; i < objectArray.Length; i++)
                     {
-                        objectArray[i].transform.rotation = new Quaternion(
-                            int.Parse(data[dataIndex++]),
-                            int.Parse(data[dataIndex++]),
-                            int.Parse(data[dataIndex++]),
-                            int.Parse(data[dataIndex++])
-                            );
+                        dataIndex = 0;
 
-                        objectArray[i].transform.position = new Vector3(
+                        objectArray[i].SetNewRotation(new Quaternion(
+                            int.Parse(data[dataIndex++]),
                             int.Parse(data[dataIndex++]),
                             int.Parse(data[dataIndex++]),
                             int.Parse(data[dataIndex++])
-                            );
+                            ));
+
+                        objectArray[i].SetNewPos(new Vector3(
+                            int.Parse(data[dataIndex++]),
+                            int.Parse(data[dataIndex++]),
+                            int.Parse(data[dataIndex++])
+                            ));
                     }
                 }
             }

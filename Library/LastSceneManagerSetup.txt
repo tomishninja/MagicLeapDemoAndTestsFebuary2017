@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/UDPControlAObjectDemo.unity
+- path: Assets/Scenes/HaloSceen.unity
   isLoaded: 1
   isActive: 1

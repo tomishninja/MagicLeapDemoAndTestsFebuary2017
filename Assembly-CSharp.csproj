@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DontDestroyThisObject.cs" />
+    <Compile Include="Assets\GuestureBehaviorTransformTClarke.cs" />
     <Compile Include="Assets\LSL4Unity\Demos\CubeRotation.cs" />
     <Compile Include="Assets\LSL4Unity\Demos\LSLTransformDemoOutlet.cs" />
     <Compile Include="Assets\LSL4Unity\Demos\RandomMarker.cs" />
@@ -82,7 +83,6 @@
     <Compile Include="Assets\LSL4Unity\Scripts\Resolver.cs" />
     <Compile Include="Assets\LSL4Unity\Scripts\ScriptOrder.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\BaseRaycast.cs" />
-    <Compile Include="Assets\MagicLeap\CoreComponents\BitMask.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\ComboRaycastController.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\ComboRaycastEyes.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\ComboRaycastHead.cs" />
@@ -106,11 +106,14 @@
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\FaceTargetPosition.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\PathAroundObject.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\PlacementObject.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\SpriteSequenceAnimation.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\TransformFollower.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\ContactsExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\ControllerFeedbackExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\ImageCaptureExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\ImageTrackingExample.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\InputExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\LightTrackingExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\MediaPlayerExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\MeshingExample.cs" />
@@ -120,6 +123,9 @@
     <Compile Include="Assets\MagicLeap\Examples\Scripts\PlacementExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\PlanesExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\RaycastExample.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\ScreensExample.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ContactsButton.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ContactsTextField.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ControllerStatsText.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ControllerStatusIndicator.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ControllerStatusText.cs" />
@@ -129,9 +135,15 @@
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\MediaPlayerToggle.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PlaceFromCamera.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PrivilegeDeniedError.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\VideoError.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\VirtualCursor.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\VirtualPointer.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\VideoCaptureExample.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\VignetteExample.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContactAttributeItem.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContactItem.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContactPage.cs" />
+    <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContactsListPage.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContentBindingVisualizer.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContentDragController.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\ContentDragHandler.cs" />
@@ -163,24 +175,37 @@
     <Compile Include="Assets\RoomMapper\Scripts\EyeTarget.cs" />
     <Compile Include="Assets\RoomMapper\Scripts\EyeTargetManager.cs" />
     <Compile Include="Assets\RoomMapper\Scripts\Locator.cs" />
+    <Compile Include="Assets\RotateOnFist.cs" />
     <Compile Include="Assets\Scripts\ActAsUDPListener.cs" />
+    <Compile Include="Assets\Scripts\ChangeMaterialOnEnter.cs" />
+    <Compile Include="Assets\Scripts\Chunks\Chunk.cs" />
+    <Compile Include="Assets\Scripts\Chunks\Direction.cs" />
     <Compile Include="Assets\Scripts\CSharpStandardNetoworkingScripts\IDisplayMessage.cs" />
     <Compile Include="Assets\Scripts\CSharpStandardNetoworkingScripts\MessageHelper.cs" />
     <Compile Include="Assets\Scripts\CSharpStandardNetoworkingScripts\UDPListener.cs" />
     <Compile Include="Assets\Scripts\FloatIntetToText.cs" />
+    <Compile Include="Assets\Scripts\MRIGenerationScript.cs" />
+    <Compile Include="Assets\Scripts\PNMIntArrayObject.cs" />
+    <Compile Include="Assets\Scripts\PNMtoBufferedIntArray.cs" />
+    <Compile Include="Assets\StayInRelationTo.cs" />
+    <Compile Include="Assets\UpdatePosition.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
     <None Include="Assets\MagicLeap\Examples\Documentation\MusicService.txt" />
     <None Include="Assets\MagicLeap\Examples\Documentation\WorldScale.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Contacts.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\WorldVerticalWithFilter.shader" />
     <None Include="Assets\MagicLeap\Examples\Documentation\MobileApp.txt" />
+    <None Include="Assets\MagicLeap\Libs\LuminMediaPlayer.xml" />
     <None Include="Assets\MagicLeap\Examples\Documentation\Planes.txt" />
     <None Include="Assets\MagicLeap\Examples\Documentation\Placement.txt" />
     <None Include="Assets\MagicLeap\CoreComponents\Vignette\Vignette.shader" />
     <None Include="Assets\MagicLeap\Examples\Documentation\Meshing.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Screens.txt" />
     <None Include="Assets\MagicLeap\Examples\Plugins\Lumin\manifest.xml" />
     <None Include="Assets\MagicLeap\Examples\Shaders\UnlitColorTransparent.shader" />
     <None Include="Assets\MagicLeap\Examples\Shaders\BasicWorldSpace.shader" />
+    <None Include="Assets\MagicLeap\Libs\LuminUnity.xml" />
     <None Include="Assets\MagicLeap\Examples\Documentation\Vignette.txt" />
     <None Include="Assets\MagicLeap\Examples\Documentation\Controller.txt" />
     <None Include="Assets\MagicLeap\Examples\Documentation\HandTracking.txt" />
@@ -192,7 +217,7 @@
     <None Include="Assets\MagicLeap\Examples\Shaders\MeshWorldSpace.shader" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\music_manifest.xml" />
     <None Include="Assets\MagicLeap\Examples\Shaders\WorldXZWithLerp.shader" />
-    <None Include="Assets\MagicLeap\Libs\LuminUnity.xml" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\InputModule.txt" />
     <None Include="Assets\MagicLeap\Examples\Documentation\ImageCapture.txt" />
     <None Include="Assets\MagicLeap\Examples\Documentation\Raycast.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PlaneEdge.shader" />
@@ -202,6 +227,9 @@
     <None Include="Assets\MagicLeap\Examples\Documentation\LightTracking.txt" />
     <None Include="Assets\MagicLeap\Examples\Models\Controller\Shaders\ControllerDepthMask.shader" />
     <None Include="Assets\MagicLeap\Examples\Documentation\ImageTracking.txt" />
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/unityProjects/MagicLeap/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.MagicLeap.Editor">
       <HintPath>C:/unityProjects/MagicLeap/Library/ScriptAssemblies/Unity.XR.MagicLeap.Editor.dll</HintPath>
     </Reference>
@@ -409,14 +437,26 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity 2018.1.9f2-MLTP10/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="LuminUnity">
-      <HintPath>C:/unityProjects/MagicLeap/Assets/MagicLeap/Libs/LuminUnity.dll</HintPath>
-    </Reference>
     <Reference Include="MSA.Runtime">
       <HintPath>C:/unityProjects/MagicLeap/Assets/MagicLeap/Soundfield/MSA.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore">
+      <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps">
+      <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Thomas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>

@@ -22,7 +22,14 @@
   },
   {
    "compression": 8,
-   "hash": "e18f60792918205f2248b2df7b97662dfa8da008",
+   "hash": "8973dd51115f33b02b76e4fb6c9b2ad43c94c8ca",
+   "pkgpath": "Data/0000000000000000f000000000000000",
+   "size": 13016,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/0000000000000000f000000000000000"
+  },
+  {
+   "compression": 8,
+   "hash": "9b5018d3395b2621ea46c20750ff8f992340ce53",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
@@ -43,6 +50,27 @@
   },
   {
    "compression": 8,
+   "hash": "1e04e890655cf08e1a3077b29f9919bf5a781286",
+   "pkgpath": "Data/27b22249f8e1499b939029821545eaef",
+   "size": 4160,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/27b22249f8e1499b939029821545eaef"
+  },
+  {
+   "compression": 8,
+   "hash": "4ffcd698c3db0ef2aeca146d0462a030109063a4",
+   "pkgpath": "Data/2b0d2c82d755d4e11887c1a2869969a1",
+   "size": 4244,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/2b0d2c82d755d4e11887c1a2869969a1"
+  },
+  {
+   "compression": 8,
+   "hash": "62dbe35d4d8be8c1371510b0bf442c21fee3bf38",
+   "pkgpath": "Data/2b0d2c82d755d4e11887c1a2869969a1.resS",
+   "size": 174776,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/2b0d2c82d755d4e11887c1a2869969a1.resS"
+  },
+  {
+   "compression": 8,
    "hash": "b43467e117fcc51ec4da91b1050e665c3b5542c8",
    "pkgpath": "Data/2b303258409019f428ed17a87cda4ac9",
    "size": 50342,
@@ -50,10 +78,31 @@
   },
   {
    "compression": 8,
+   "hash": "750d68ed0bea330b41dc3f759780f3dffae5b1bf",
+   "pkgpath": "Data/4024a17c5f5543fe9eb4add419e1fe6a",
+   "size": 7452,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/4024a17c5f5543fe9eb4add419e1fe6a"
+  },
+  {
+   "compression": 8,
+   "hash": "318a73602fbde67f827a4bc6d1c764975f2d0b09",
+   "pkgpath": "Data/428edb63eff344b9880efa9f474f2ad1",
+   "size": 4188,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/428edb63eff344b9880efa9f474f2ad1"
+  },
+  {
+   "compression": 8,
    "hash": "dbff325bfad543a7260e42d0a4f2403f040152b1",
    "pkgpath": "Data/479521f96370b384d810a07599e7b084",
    "size": 50254,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/479521f96370b384d810a07599e7b084"
+  },
+  {
+   "compression": 8,
+   "hash": "13104aa91cb4a665503def4260c4a4a350f4725b",
+   "pkgpath": "Data/48536c6f025340eaa2b6ba340f0e1655",
+   "size": 4192,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/48536c6f025340eaa2b6ba340f0e1655"
   },
   {
    "compression": 8,
@@ -92,6 +141,27 @@
   },
   {
    "compression": 8,
+   "hash": "07b37658374bf62393cc096ba4b44c1461b8205f",
+   "pkgpath": "Data/9709198a867042d88a5a26984da61df8",
+   "size": 4240,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/9709198a867042d88a5a26984da61df8"
+  },
+  {
+   "compression": 8,
+   "hash": "d741485094ef1692a06d28c2d9965222c95320ce",
+   "pkgpath": "Data/98b4b9c5ae0f44bd09fb8e0256f4e90f",
+   "size": 4244,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/98b4b9c5ae0f44bd09fb8e0256f4e90f"
+  },
+  {
+   "compression": 8,
+   "hash": "7dc1df549b57a3fae9883bdcb225c8ea1425eef9",
+   "pkgpath": "Data/98b4b9c5ae0f44bd09fb8e0256f4e90f.resS",
+   "size": 349552,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/98b4b9c5ae0f44bd09fb8e0256f4e90f.resS"
+  },
+  {
+   "compression": 8,
    "hash": "beeb2cbd84f6b07806f2a891d30d740eaac6bcbd",
    "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
    "size": 49642,
@@ -99,16 +169,16 @@
   },
   {
    "compression": 8,
-   "hash": "e29bb7db8c46afe86455100b17470fd61524fbba",
+   "hash": "783a0a7ceb929f695c2693dc3e7d7e5147dff06b",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3142608,
+   "size": 3447596,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "ed90451401658f793e2a090d049d550fd440c673",
+   "hash": "76e68e1917cbf799cd7b980b79d251327fa9589a",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 39531360,
+   "size": 45088544,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -120,9 +190,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "e69b17895a3759d535614cfad74d5e8685f57945",
+   "xfrm_hash": "7d7b1bcdb7532f663bde3876d152d26c1967379d",
    "xfrm_path": "C:/unityProjects/MagicLeap/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.productname-14ca6715d34276b4\\libil2cpp.so-b37eb2c7f3078dfe",
-   "xfrm_size": 39532118
+   "xfrm_size": 45089302
   },
   {
    "compression": 8,
@@ -241,9 +311,9 @@
   },
   {
    "compression": 8,
-   "hash": "d79291a0cbc09817ca8857b24f04a033443668cd",
+   "hash": "c0d06b372dca191476c9fbca38494c86cc394e13",
    "pkgpath": "Data/Resources/unity_builtin_extra",
-   "size": 405980,
+   "size": 392748,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/Resources/unity_builtin_extra"
   },
   {
@@ -255,6 +325,13 @@
   },
   {
    "compression": 8,
+   "hash": "93ebfa5c35514b437914103eb81fd2ea46799784",
+   "pkgpath": "Data/a4af9c331f874be9acf3658dcb2a3a1a",
+   "size": 4272,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/a4af9c331f874be9acf3658dcb2a3a1a"
+  },
+  {
+   "compression": 8,
    "hash": "5c18367ea31b7fc24b76d7da35e71558f3327fdc",
    "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
    "size": 49726,
@@ -262,73 +339,136 @@
   },
   {
    "compression": 8,
-   "hash": "e4efa6449d8a48d01ef39ef95e32df17ceb7473f",
+   "hash": "b620310f69daa51aa5ee6c91263cf0d835b25a3c",
+   "pkgpath": "Data/b55e75ccb8834190b85c8c56cf377a18",
+   "size": 7500,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/b55e75ccb8834190b85c8c56cf377a18"
+  },
+  {
+   "compression": 8,
+   "hash": "26172befdcf8aca6536bbd93d64474d5fa297013",
+   "pkgpath": "Data/b74dc1b557ab24957bad9a8b1cf12ace",
+   "size": 4160,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/b74dc1b557ab24957bad9a8b1cf12ace"
+  },
+  {
+   "compression": 8,
+   "hash": "450dfed59b4aba11cf1d54b0577b1f9eaa460359",
    "pkgpath": "Data/boot.config",
-   "size": 213,
+   "size": 212,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/boot.config"
   },
   {
    "compression": 8,
-   "hash": "9e18d469c591574fb83b0eafd4313cc6782b2d45",
+   "hash": "18653711a3ba540a3b085b9872cf4e6f3072ac46",
+   "pkgpath": "Data/c10a6c3b9765499f9fa96e5c32686cf9",
+   "size": 8264,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/c10a6c3b9765499f9fa96e5c32686cf9"
+  },
+  {
+   "compression": 8,
+   "hash": "d5c8333a6189bccf854ee4c6ed2d0d78077c29e5",
+   "pkgpath": "Data/d51b0e4a87ac4a7ba04281341fc2ceef",
+   "size": 58264,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/d51b0e4a87ac4a7ba04281341fc2ceef"
+  },
+  {
+   "compression": 8,
+   "hash": "2bceeac6cbca25ad8304e9ecb3838cbe042b16f2",
+   "pkgpath": "Data/da383c451e82c440480e03f4aad0db9f",
+   "size": 4244,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/da383c451e82c440480e03f4aad0db9f"
+  },
+  {
+   "compression": 8,
+   "hash": "7fb1c526caed0d6fddb5483f68f67cc6608d97dc",
+   "pkgpath": "Data/da383c451e82c440480e03f4aad0db9f.resS",
+   "size": 349552,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/da383c451e82c440480e03f4aad0db9f.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "7333e2cbafa00b252fafd87c0576b150391ea66c",
+   "pkgpath": "Data/ec0aa376067f4c6fa4b637e3cd479088",
+   "size": 4288,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/ec0aa376067f4c6fa4b637e3cd479088"
+  },
+  {
+   "compression": 8,
+   "hash": "bc614d141140efe7e223e9a5880d7bc4edffb146",
+   "pkgpath": "Data/f3af4aa88c834fbbb65dab59c08f4ad8",
+   "size": 6932,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/f3af4aa88c834fbbb65dab59c08f4ad8"
+  },
+  {
+   "compression": 8,
+   "hash": "591c062ab519d7fa8462a3469d7d2fe0b3610039",
+   "pkgpath": "Data/f736ea39e4334c659e288aa477a1a3c7",
+   "size": 4224,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/f736ea39e4334c659e288aa477a1a3c7"
+  },
+  {
+   "compression": 8,
+   "hash": "36f488f93f366be43f483e6369a6cfbd7b5c4901",
+   "pkgpath": "Data/f8af10ae2c674e569782e57b09c76a13",
+   "size": 4896,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/f8af10ae2c674e569782e57b09c76a13"
+  },
+  {
+   "compression": 8,
+   "hash": "a6b2cce6fc2c88ce15f7de9961a438e5c5ca942c",
+   "pkgpath": "Data/f95983c5af5c74a4bacdb0d204ab11b1",
+   "size": 7500,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/f95983c5af5c74a4bacdb0d204ab11b1"
+  },
+  {
+   "compression": 8,
+   "hash": "7e0fb94f9396418c87bf35e79b39e71df3cfe47f",
+   "pkgpath": "Data/fafa2664534d447caf55f85769535525",
+   "size": 4244,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/fafa2664534d447caf55f85769535525"
+  },
+  {
+   "compression": 8,
+   "hash": "81caba6a0c4aa76dc8a2285c5f9d74bfc87f63cc",
+   "pkgpath": "Data/fafa2664534d447caf55f85769535525.resS",
+   "size": 174776,
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/fafa2664534d447caf55f85769535525.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "9e5acbc7dead9d46b8547e28ed2bb09f218d4321",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 38004,
+   "size": 40148,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "8bfedacdc1b66310f52add65586dc9f9f710e4c2",
+   "hash": "71ca51798a02fb6b590c676eb9fe148ba2b9bf28",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 45044,
+   "size": 48412,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "05282047f4772c007dc34454dc1faec08ec31122",
+   "hash": "80756abb32125a5ddd735b6ca8b73be268e76c8f",
    "pkgpath": "Data/level0",
-   "size": 7608,
+   "size": 5956,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "f3f96d81d1bd43f92ec0905bd2ac4a18c2110543",
-   "pkgpath": "Data/level1",
-   "size": 13652,
-   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/level1"
-  },
-  {
-   "compression": 8,
    "hash": "328a580c05749f1a79a9e1ce7a19285d053f0ba9",
-   "pkgpath": "Data/level1.resS",
+   "pkgpath": "Data/level0.resS",
    "size": 131232,
-   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/level1.resS"
+   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/level0.resS"
   },
   {
    "compression": 8,
-   "hash": "f7501c8518804ec010b4b91a61b5b30d0368f550",
+   "hash": "4d584d5bf8535c6b18e85a459e427ce0b70a0d85",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 29868,
+   "size": 104768,
    "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/sharedassets0.assets"
-  },
-  {
-   "compression": 8,
-   "hash": "39291e63a8daad2f3fd293f793838415acef8a2a",
-   "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 2097296,
-   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/sharedassets0.assets.resS"
-  },
-  {
-   "compression": 8,
-   "hash": "9b4be063940843479e22023ea6c0f4dc86fee4ae",
-   "pkgpath": "Data/sharedassets1.assets",
-   "size": 923048,
-   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/sharedassets1.assets"
-  },
-  {
-   "compression": 8,
-   "hash": "3b9367ade1279d67688632db548a75979ac8ddba",
-   "pkgpath": "Data/sharedassets1.assets.resS",
-   "size": 524288,
-   "src": "C:/unityProjects/MagicLeap/Temp/StagingArea/Data/sharedassets1.assets.resS"
   },
   {
    "compression": 8,
@@ -352,9 +492,9 @@
   },
   {
    "compression": 8,
-   "hash": "68d2cee784541581b4972166dd35ca30f9ca2d38",
+   "hash": "cf54bf93773a152c5b0c82036a73659867a0d0d7",
    "pkgpath": "manifest.xml",
-   "size": 630,
+   "size": 1076,
    "src": "C:\\unityProjects\\MagicLeap\\Temp\\StagingArea\\manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -362,9 +502,9 @@
      "developer_id": "8febbf58-8af0-4880-8514-688c1abf98cc"
     }
    },
-   "xfrm_hash": "892ded110d63284afadea9b1f958f01351b5a726",
+   "xfrm_hash": "e225df033354408986f40f0f410ebb661b549c3e",
    "xfrm_path": "C:/unityProjects/MagicLeap/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.productname-14ca6715d34276b4\\manifest.xml-a8ced1dcc5ceb2a1",
-   "xfrm_size": 642
+   "xfrm_size": 1088
   }
  ],
  "pkgflags": {

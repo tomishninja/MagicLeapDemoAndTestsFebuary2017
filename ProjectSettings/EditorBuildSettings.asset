@@ -17,13 +17,28 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/Meshing.unity
     guid: 867506c3cbb29bc42a71d236fbd415c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/RoomMapper/Scenes/RoomMapperScene.unity
     guid: c45466fd94b37bd4f8066b1ceac0ecd7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HelloCube.unity
     guid: 2527afc112bea1545b031252cade0314
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/WorldScale_Centimeters.unity
     guid: d61a2530f2376b24ba6a9473c299ff77
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/HandTracking.unity
+    guid: c027f118f9ccd4979b8795eb3900db70
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/VideoCapture.unity
+    guid: 14c17404942524712996f803abef0537
+  - enabled: 0
+    path: Assets/Scenes/TomsHandtrackingDemo.unity
+    guid: 66223805da5d4c748bb83ed1e2bb8641
+  - enabled: 0
+    path: Assets/Scenes/HaloSceen.unity
+    guid: de2265457037b8c41845fd6927cff6ca
+  - enabled: 1
+    path: Assets/Scenes/DICOMExample2D.unity
+    guid: 2d68eec072de0f5448f93ef0c14899fb
   m_configObjects: {}

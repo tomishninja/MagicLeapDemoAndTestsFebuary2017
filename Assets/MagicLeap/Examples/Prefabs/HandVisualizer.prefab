@@ -126,9 +126,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _handType: 0
   _center: {fileID: 4984167014396354}
-  _pinkyColor: {r: 0, g: 1, b: 1, a: 1}
-  _ringColor: {r: 1, g: 0, b: 0, a: 1}
-  _middleColor: {r: 0, g: 0, b: 1, a: 1}
-  _indexColor: {r: 1, g: 0, b: 1, a: 1}
-  _thumbColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  _wristColor: {r: 1, g: 1, b: 1, a: 1}
+  _keyPointPrefab: {fileID: 1415402428004256, guid: 8223014618b1058418ee557b954ade8c,
+    type: 2}
